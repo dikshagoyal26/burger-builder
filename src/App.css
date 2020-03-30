@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+.bread_top {
+  /* height: 20%; */
+  /* width: 80%; */
+  height: 200px;
+  width: 800px;
+  background: -webkit-linear-gradient(#bc581e, #e27b36);
+  background: linear-gradient(#bc581e, #e27b36);
+  border-radius: 50% 50% 0 0;
+  box-shadow: inset -15px 0 #c15711;
+  margin: 2% auto;
+  position: relative;
+}
+.bread_bottom {
+  width: 800px;
+  height: 130px;
+  /* height: 13%;
+    width: 80%; */
+  background: -webkit-linear-gradient(#f08e4a, #e27b36);
+  background: linear-gradient(#f08e4a, #e27b36);
+  border-radius: 0 0 30px 30px;
+  box-shadow: inset -15px 0 #c15711;
+  margin: 2% auto;
+}
+.salad {
+  /* width: 85%;
+  height: 7%; */
+  width: 850px;
+  height: 70px;
+  margin: 2% auto;
+  background: -webkit-linear-gradient(#228c1d, #91ce50);
+  background: linear-gradient(#228c1d, #91ce50);
+  border-radius: 20px;
+}
+.cheese {
+  width: 90%;
+  height: 4.5%;
+  margin: 2% auto;
+  background: -webkit-linear-gradient(#f4d004, #d6bb22);
+  background: linear-gradient(#f4d004, #d6bb22);
+  border-radius: 20px;
+}
+
+.meat {
+  width: 80%;
+  height: 8%;
+  background: -webkit-linear-gradient(#7f3608, #702e05);
+  background: linear-gradient(#7f3608, #702e05);
+  margin: 2% auto;
+  border-radius: 15px;
+}
+.bacon {
+  width: 80%;
+  height: 3%;
+  background: -webkit-linear-gradient(#bf3813, #c45e38);
+  background: linear-gradient(#bf3813, #c45e38);
+  margin: 2% auto;
+}
+.tomato {
+  width: 80%;
+  height: 5%;
+  background: -webkit-linear-gradient(left, #8d2002, #ee4000 50%, #8d2002);
+  background: linear-gradient(90deg, #8d2002, #ee4000 50%, #8d2002);
+  margin: 2% auto;
+}
